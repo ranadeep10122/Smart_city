@@ -14,7 +14,7 @@ public class shopping extends db {
 		{
 			case 1:
 				System.out.println("1. FORUM MALL");
-				System.out.println("Address: K P H B Phase 9, Kukatpally, Hyderabad, Telangana 500085");
+				System.out.println("Address: KPHB Phase 9, Kukatpally, Hyderabad, Telangana 500085");
 				{System.out.println("\n");
 					System.out.println("Enter 0 to return to previous menu");
 					int r=read.nextInt();
@@ -41,6 +41,18 @@ public class shopping extends db {
 					if (r<=0)
 				shopping();}
 					break;
+			Case 4: 
+					System.out.println("4. MANJEERA MALL");
+					System.out.println("Address: JNTU Road, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, telangana 500072");
+					{
+					  System.out.println("\n");
+						System.out.println("Enter 0 to return to previous menu");
+						int r=read.nextInt();
+						if(r<=0)
+						{
+							shopping();
+						}
+					}
 		
 		
 	}
