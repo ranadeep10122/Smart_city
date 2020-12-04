@@ -6,28 +6,29 @@ public class ticket extends db
 	{
 		String name="null";
 		String contact="null";
-		Scanner red=new Scanner(System.in);
+		int i=0;
+		Scanner red=new Scanner(System.in);	
 		System.out.println("Welcome to the Online Booking Portal of Airline Ticket... ");
 		System.out.println();
-		System.out.println("PLease Select your Airlines");
-		System.out.println("1. Sky Travles");
-		System.out.println("2. Tourist Travles");
-		System.out.println("3. Global Travles");
-		int in = red.nextInt();
-		while(in>3 | in<1)
-		{
+		while(i==0) 		{
+		   System.out.println("PLease Select your Airlines");
+		   System.out.println("1. Sky Travles");
+		   System.out.println("2. Tourist Travles");
+		   System.out.println("3. Global Travles");
+		   int in = red.nextInt();
+		 while(in>3 | in<1)		 {
 			System.out.println("Please Enter Correct Option");
 			in = red.nextInt();
-		}
-		if(in==1) {
+		 }
+		  if(in==1)	  {
 			name = "Sky";
 		    contact ="514 856 4578";
-		}
-		else if(in==2) {
+		  }
+		else if(in==2)		{
 			name = "Tourist";
 			contact ="514 321 8521";
 		}
-		else if(in==3) {
+		else if(in==3) 		{
 			name = "Global";
 			contact ="514 456 1155";			
 		}
@@ -40,18 +41,19 @@ public class ticket extends db
 		System.out.println("Website : http://"+name+".com/");
 		System.out.println("Now, You can just book your ticket for desired destinations through phone.");
 		System.out.println("Thank You.");
-	
-		System.out.println("ENTER 0 TO RETURN TO MAINMENU");
+		System.out.println();
+		System.out.println("Enter 1 to go back to Previous Menu");
+		System.out.println("Enter 0 to go back to Main menu");
 		int e=red.nextInt();
-		while(e!=0)
-		{
-			System.out.println("Invalid Input, Please enter 0 to go back:");
-			e=red.nextInt();
+		while(e!=0 && e!=1) {
+			System.out.println("Invalid Input. Please try again!");
+			e= red.nextInt();
 		}
-		if(e==0)
-		{
-			display();
-		}	
-		red.close();
+		if(e==0)	{
+			display();	
+		}
 	}
+	 red.close();
+	}
+
 }

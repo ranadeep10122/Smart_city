@@ -7,8 +7,6 @@ public class db
 	
  public static void main(String[] args)
  {
-	 
-	
     display();
  }
  
@@ -16,7 +14,6 @@ public class db
 	{
 	 Scanner inpt=new Scanner(System.in);
 	 System.out.println("WELCOME TO KONOHA CITY");
-	 System.out.println("\n");
 	 System.out.println("CHOOSE ANY OPTION BELOW TO GET THE INFORMATION");
 	 System.out.println("\n");
 	 System.out.println("1. HOTELS");
