@@ -76,13 +76,13 @@ public class transport extends db {
 
                 case 3: 
 
-                    System.out.println("Track: Green \n Starting: Angrinon  Ending: Honore-Beaugrand \n Fare: $3.50"); 
+                    System.out.println("Track: Green \n Starting: Angrinon  Ending: Honore-Beaugrand \n Fare: $6.50"); 
 
-                    System.out.println("Track: Orange \n Starting: Cote-Vertu Ending: Montmorency\n Fare: $3.50"); 
+                    System.out.println("Track: Orange \n Starting: Cote-Vertu Ending: Montmorency\n Fare: $6.50"); 
 
-                    System.out.println("Track: Blue \n Starting: Snowdown   Ending: Saint- Michel\n Fare: $3.50"); 
+                    System.out.println("Track: Blue \n Starting: Snowdown   Ending: Saint- Michel\n Fare: $6.50"); 
 
-                    System.out.println("Track: Yellow \n Starting: Berri-UQAM   Ending: Longueuil-Universite de Sherbrooke \n Fare: $3.50"); 
+                    System.out.println("Track: Yellow \n Starting: Berri-UQAM   Ending: Longueuil-Universite de Sherbrooke \n Fare: $6.50"); 
 
                     {  System.out.println("\n"); 
 
