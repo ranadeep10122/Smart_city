@@ -1,6 +1,6 @@
 # Smart_city
 
-In Small city project, we can go through five different options:
+In Smart city project, we can go through five different options:
 (i)Hotels
 (ii)News 
 (iii)Shopping
