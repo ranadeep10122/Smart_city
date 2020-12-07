@@ -1,5 +1,5 @@
 # Smart_city
-mini project
+
 In Small city project, we can go through five different options:
 (i)Hotels
 (ii)News 
